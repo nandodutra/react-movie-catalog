@@ -1,0 +1,25 @@
+.Card {
+    flex: 1;
+    min-width: 300px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Card header {
+    font-weight: 300;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.Card .Content {
+    padding: 10px;
+}
+
+.Card .Content img {
+    width: 100%;
+}
